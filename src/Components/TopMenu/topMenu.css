@@ -6,3 +6,8 @@
     height: 50px;
     padding: 16px 12px 16px 12px;
 }
+
+.iconButton {
+    color: white;
+    margin-right: 40px;
+}

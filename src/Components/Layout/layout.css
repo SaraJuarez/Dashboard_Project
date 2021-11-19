@@ -1,0 +1,21 @@
+.prueba {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+}
+
+.div-mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-sidebar {
+    width: 10%;
+    height: 100vh;
+}
+
+.div-main {
+    width: 80%;
+    padding: 10px;
+}
+

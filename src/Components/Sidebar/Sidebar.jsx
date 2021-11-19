@@ -11,7 +11,6 @@ import List from '@mui/material/List';
 import {ReactComponent as ExploreIcon} from '../../Images/explorar-icon.svg';
 import {ReactComponent as AllDarwinsIcon} from '../../Images/all-darwins-icon.svg';
 import {ReactComponent as DarwiniaIcon} from '../../Images/darwinia-icon.svg';
-
 function Sidebar () {
 
     let arrayItems = [
@@ -33,6 +32,21 @@ function Sidebar () {
     return(
         <div className='container-sidebar'>
             <List>
+            <div className='sidebar-titleDiv'>
+              <div className='pointsContainer'>
+                <div className='column'>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                </div>
+                <div className='column'>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                  <AllDarwinsIcon className='point'></AllDarwinsIcon>
+                </div>
+              </div>
+              <p className='mainContainer-title'>Principal</p>
+            </div>
           {arrayItems.map((element, index) => (
             <ListItem button key={element.text}>
               <ListItemIcon className='sidebar-icon'>
