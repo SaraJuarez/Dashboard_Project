@@ -13,6 +13,11 @@ import arrow from '../../Images/next.png';
 
 function Main () {
 
+    let arrayColor = [
+        '#d267c6',
+        '#efaa42',
+        '#fb6533'
+    ]
 
 
     return(
@@ -32,9 +37,9 @@ function Main () {
                     </div>
                 </div>
                 <div className='container-cards'>
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
+                {arrayColor.map((element, index) => (
+                    <Card color={element}></Card>
+                ))}
                 </div>
             </div>
         </div>

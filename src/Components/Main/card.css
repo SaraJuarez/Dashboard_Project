@@ -2,11 +2,93 @@
     background-color: #2d2d2d!important;
 }
 
+.card-body > div {
+    padding: 0!important;
+    padding-top: 14px;
+}
+
+.card-mainContent {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.headerCard-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerCard-firstBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.headerCard-secondBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.div-s {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    color: #ffffff;
+}
+
+.div-s > p {
+    padding-bottom: 5px;
+}
+
+.second-item {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.third-item {
+    font-size: 13px;
+    color: #979797;
+}
+
+.secondBlock-firstItem {
+    color: #aaff00;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.secondBlock-secondItem {
+    border: 1px solid #aaff00;
+    color: #ffffff;
+    padding: 4px 11px 4px 11px;
+    border-radius: 17px; 
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.recharts-responsive-container{
+    height: 60px!important;
+}
+
 .listItem-card {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+    border-top: 1px solid #505050!important;
+/*     border-bottom: 1px solid #505050!important;
+ */}
 
 .card-itemName > span {
     font-size: 13px;
@@ -38,4 +120,46 @@
 
 .owlIcon {
     margin-right: 5px;
+}
+
+
+.div-footer-graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.hexagon {
+    position: relative;
+    width: 16px; 
+    height: 9.24px;
+    background-color: #ffffff;
+    margin: 4.62px 0;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 4.62px solid #ffffff;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 4.62px solid #ffffff;
+  }
+
+.hexagon > p {
+    margin: 0!important;
 }

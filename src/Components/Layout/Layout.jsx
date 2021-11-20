@@ -78,7 +78,7 @@ export default function Layout() {
 
 
   return (
-    <div className='prueba'>
+    <div className='all-container'>
         <TopMenu open={open} handleDrawerOpen={handleDrawer}></TopMenu>
         <div className='div-mainContainer'>
           {open === true ?
