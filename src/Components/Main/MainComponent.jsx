@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 /* Components */
 import MainHeader from './MainHeader';
 import MainMenu from './MainMenu';
 import Card from './Card';
+import Divider from '@mui/material/Divider';
 
 /* Styles */
 import './main.css';
@@ -13,17 +14,24 @@ import arrow from '../../Images/next.png';
 
 function Main () {
 
+    const [view, setView] = useState('container-cards-wrap');
+
     let arrayColor = [
         '#d267c6',
         '#efaa42',
         '#fb6533'
     ]
 
+    function changeView (e) {
+        let state = e.currentTarget.id;
+        setView(state)
+    }
 
     return(
         <div className='main-container'>
             <MainHeader></MainHeader>
-            <MainMenu></MainMenu>
+            <Divider className='divider' />
+            <MainMenu view={view} changeView={changeView}></MainMenu>
             <div className='div-smallHeader-cards'>
                 <div className='main-smallHeader'>
                     <p>729 Darwins encontrados</p>
@@ -36,7 +44,7 @@ function Main () {
                         </div>
                     </div>
                 </div>
-                <div className='container-cards'>
+                <div className={view}>
                 {arrayColor.map((element, index) => (
                     <Card color={element}></Card>
                 ))}

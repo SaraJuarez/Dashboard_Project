@@ -1,5 +1,7 @@
 .card-body {
     background-color: #2d2d2d!important;
+    margin-bottom: 20px;
+    max-width: 268px;
 }
 
 .card-body > div {
@@ -33,6 +35,23 @@
     justify-content: flex-end;
     align-items: center;
     width: 50%;
+}
+
+.div-folder {
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+
+.div-folder:hover {
+    background-color: #00c9ff;
+}
+
+.folderIcon {
+    width: 12px;
+    height: 12px;
 }
 
 .div-s {
@@ -76,6 +95,12 @@
     font-size: 12px;
     font-weight: 600;
     margin-left: 5px;
+}
+
+.secondBlock-secondItem:hover{
+    background-color: #aaff00;
+    color: #000000;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .recharts-responsive-container{

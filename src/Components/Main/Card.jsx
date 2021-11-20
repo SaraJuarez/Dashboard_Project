@@ -1,4 +1,4 @@
-import * as React from 'react';
+import  React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import ListItem from '@mui/material/ListItem';
@@ -7,8 +7,7 @@ import List from '@mui/material/List';
 import FakeChart from './FakeChart';
 
 import {ReactComponent as OwlIcon} from '../../Images/owl-icon.svg';
-import {ReactComponent as FolderIcon} from '../../Images/folder-icon.svg';
-
+import FolderBlack from '../../Images/folder.png';
 
 
 import './card.css';
@@ -38,6 +37,7 @@ let arrayItems = [
 ]
 
 export default function BasicCard(props) {
+  
   return (
     <Card className='card-body' sx={{ minWidth: 268 }}>
       <CardContent>
@@ -59,7 +59,9 @@ export default function BasicCard(props) {
             </div>
             <FakeChart color={props.color}></FakeChart>
             <div className='div-footer-graph'>
-                <FolderIcon></FolderIcon>
+              <div className='div-folder'>
+                <img className='folderIcon' alt='folder icon black' src={FolderBlack}></img>
+              </div>
                 <div className='hexagon'><p>4</p></div>
             </div>
         </div>

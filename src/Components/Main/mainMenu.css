@@ -6,45 +6,28 @@
     justify-content: space-between;
     align-items: center;
     background-color: #373737;
-    margin-top: 20px;
+    height: 50px;
 }
 
 .mainMenu-buttonsDiv {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 20%;
-    border-right: 1px solid #505050;
-    padding:17px 21px 17px 19px;;
+    border-right: 1px solid #505050; 
 }
 
-.div-listIcon {
-    width: 5%;
-}
 
-.div-cardsIcon {
-    width: 5%;
-}
- 
-/*  .listIcon { 
-    padding: 17px 21px 17px 19px;
-}
-
-.cardsIcon {
-    padding: 17px 21px 17px 19px;
-
-}  */
-
- .switch-div {
+.switch-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    margin-left: 15px;
 } 
 
- .switch-div > p {
+.switch-div > p {
     font-size: 13px;
     color:#ffffff;
     white-space: nowrap;
@@ -55,21 +38,65 @@
     color: black!important;
 } 
 
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #000!important;
+}   
+
+
 .mainMenu-dropDown {
-    border-left: 1px solid #505050;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-left: 1px solid #505050; 
 }
 
 .mainMenu-dropDown > p {
-    padding: 18px 8px 18px 22px;
     color: #ffffff;
     font-size: 13px;
+    margin-right: 8px;
+    margin-left: 22px;
 } 
 
 .arrowDown {
     width: 13px;
     height: 13px;
-    padding: 18px 22px 18px 0px;
+    margin-right: 10px;
+}
+
+.div-listIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cardsIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-listIcon-active {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+}
+
+.div-cardsIcon-active {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020; 
 }

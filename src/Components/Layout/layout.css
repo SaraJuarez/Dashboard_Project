@@ -21,3 +21,11 @@
     padding: 10px;
 }
 
+.css-1gugewf-MuiPaper-root-MuiAppBar-root {
+    z-index: 2000!important;
+}
+
+.css-1tudp9r-MuiDrawer-docked .MuiDrawer-paper{
+    z-index: 0;
+}
+
