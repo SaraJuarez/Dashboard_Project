@@ -14,10 +14,12 @@ function TopMenu (props) {
   }, [props.open])
 
 
+
+
     return (
         <div className='topMenu-container'>
             {props.open === true ? 
-            <CloseIcon onClick={props.handleDrawerOpen}
+            <CloseIcon onClick={props.handleDrawerClose}
             className='iconButton'></CloseIcon>
             :
             <MenuIcon onClick={props.handleDrawerOpen} className='iconButton' />
