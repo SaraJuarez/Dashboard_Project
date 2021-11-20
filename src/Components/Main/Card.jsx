@@ -1,11 +1,14 @@
-import  React from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import List from '@mui/material/List';
+
+/* Components */
 import FakeChart from './FakeChart';
 
+/* Images */
 import {ReactComponent as OwlIcon} from '../../Images/owl-icon.svg';
 import FolderBlack from '../../Images/folder.png';
 

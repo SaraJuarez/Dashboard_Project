@@ -19,7 +19,9 @@ function Main () {
     let arrayColor = [
         '#d267c6',
         '#efaa42',
-        '#fb6533'
+        '#fb6533',
+        '#bca5d1',
+        '#57737A'
     ]
 
     function changeView (e) {

@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import Switch from '@mui/material/Switch';
 
+/* Images */
 import {ReactComponent as CardsIcon} from '../../Images/card-icon.svg';
 import {ReactComponent as ListIcon} from '../../Images/list-icon.svg';
 import arrowDown from '../../Images/arrow-down-sign-to-navigate.png';
@@ -36,7 +37,7 @@ function MainMenu (props) {
                     <CardsIcon></CardsIcon>
                 </div>
                 <div className='switch-div'>
-                    <p>In portfolio</p>
+                    <p>In Portfolio</p>
                     <Switch size="small"></Switch>
                 </div>
             </div>

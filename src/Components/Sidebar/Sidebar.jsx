@@ -1,11 +1,13 @@
 import React from 'react';
-
-/* Styles */
-import './sidebar.css';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import List from '@mui/material/List';
+
+
+/* Styles */
+import './sidebar.css';
+
 
 /* Images */
 import {ReactComponent as ExploreIcon} from '../../Images/explorar-icon.svg';

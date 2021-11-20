@@ -1,5 +1,6 @@
 import React from 'react';
 
+/* Styles */
 import './mainHeader.css';
 
 function MainHeader () {
