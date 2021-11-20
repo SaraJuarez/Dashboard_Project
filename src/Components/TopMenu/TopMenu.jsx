@@ -1,6 +1,5 @@
 import React from 'react';
 import {ReactComponent as DarwinexLogo} from '../../Images/logo darwinex.svg';
-import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 

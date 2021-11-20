@@ -1,0 +1,41 @@
+.card-body {
+    background-color: #2d2d2d!important;
+}
+
+.listItem-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-itemName > span {
+    font-size: 13px;
+    color: #adafb2;
+    text-transform: uppercase;
+}
+
+.card-itemValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card-itemValue > span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-itemValueScore > span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-itemValueScore > span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.owlIcon {
+    margin-right: 5px;
+}

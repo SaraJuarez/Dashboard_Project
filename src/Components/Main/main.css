@@ -1,0 +1,58 @@
+
+.main-smallHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 31px;
+}
+
+.main-smallHeader > p {
+    font-size: 12px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.div-arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-singleArrowLeft {
+    margin-right: 9px;
+    border-radius: 50px;
+    border: 1px solid #505050;
+}
+
+.div-singleArrow {
+    border-radius: 50px;
+    border: 1px solid #505050;
+}
+
+.arrowLeft {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    transform: rotate(180deg);
+}
+
+.arrowRight {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+}
+
+.div-smallHeader-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
