@@ -187,4 +187,8 @@
 
 .hexagon > p {
     margin: 0!important;
+    position: absolute;
+    bottom: -4px;
+    font-size: 12px;
+    left: 4px;
 }
