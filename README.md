@@ -25,5 +25,5 @@ This a static webapp for a Darwinex test.
   Github allows users to create a static website on GitHub Pages for certain uses:
   > GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through   a build process, and publishes a website.
 
-  You can open the webapp from the url: 
+  You can open the webapp from the url: https://sarajuarez.github.io/Dashboard_Project/
   
