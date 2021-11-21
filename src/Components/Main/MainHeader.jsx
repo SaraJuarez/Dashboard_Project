@@ -14,7 +14,10 @@ function MainHeader () {
                 </div>
                 <div className='mainHeader-title'>
                     <small>Estrategia nombre</small>
-                    <p>Nombre de usuario</p>
+                    <div className='mainHeader-userName'>
+                        <p>Nombre de usuario</p>
+                        <div className='div-number'>+2</div>
+                    </div>
                 </div>
 
             </div>

@@ -50,7 +50,7 @@ function Sidebar () {
               <p className='mainContainer-title'>Principal</p>
             </div>
           {arrayItems.map((element, index) => (
-            <ListItem button key={element.text}>
+            <ListItem className='sidebar-listItem' button key={element.text}>
               <ListItemIcon className='sidebar-icon'>
                 {element.icon}
               </ListItemIcon>

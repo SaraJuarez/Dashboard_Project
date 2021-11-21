@@ -59,5 +59,8 @@
     text-transform: uppercase;
     letter-spacing: 1.82px;
     margin-left: 6px;
+}
 
+.sidebar-listItem:hover {
+    background-color: #202020!important;
 }
