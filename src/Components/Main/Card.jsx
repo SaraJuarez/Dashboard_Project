@@ -39,8 +39,9 @@ let arrayItems = [
 
 ]
 
+
 export default function BasicCard(props) {
-  
+
   return (
     <Card className='card-body' sx={{ minWidth: 268 }}>
       <CardContent>
@@ -55,7 +56,7 @@ export default function BasicCard(props) {
                     <p className='third-item'>#12</p>
                 </div>
                 <div className='headerCard-secondBlock'>            
-                    <p className='secondBlock-firstItem'>180.22</p>
+                    <p className='secondBlock-firstItem'>{props.value}</p>
                     <p className='secondBlock-secondItem'>TRADE</p>
                 </div>
 
