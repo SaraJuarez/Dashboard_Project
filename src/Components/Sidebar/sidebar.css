@@ -2,6 +2,7 @@
 .container-sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top: 50px;
     background-color: #2d2d2d;
@@ -63,4 +64,29 @@
 
 .sidebar-listItem:hover {
     background-color: #202020!important;
+}
+
+.sidebarFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #3da0cc;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebarFooter-text {
+    padding-left: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sidebarFooter:hover{
+    background-color: #0079ac;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }

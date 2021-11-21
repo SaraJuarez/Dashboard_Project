@@ -58,6 +58,9 @@ function Sidebar () {
             </ListItem>
           ))}
         </List>
+        <div className='sidebarFooter'>
+          <p className='sidebarFooter-text'>Are you a trader?</p>
+        </div>
         </div>
 
     )

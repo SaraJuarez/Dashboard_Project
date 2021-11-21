@@ -24,18 +24,27 @@
     margin-right: 9px;
     border-radius: 50px;
     border: 1px solid #505050;
+    padding: 5px;
+}
+
+.div-singleArrowLeft:hover{
+    background-color: #373737;
+}
+
+.div-singleArrow:hover {
+    background-color: #373737;
 }
 
 .div-singleArrow {
     border-radius: 50px;
     border: 1px solid #505050;
+    padding: 5px;
 }
 
 .arrowLeft {
     display: flex;
     width: 10px;
     height: 10px;
-    padding: 5px;
     transform: rotate(180deg);
 }
 
@@ -43,7 +52,6 @@
     display: flex;
     width: 10px;
     height: 10px;
-    padding: 5px;
 }
 
 .div-smallHeader-cards {
